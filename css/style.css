@@ -1,0 +1,80 @@
+html,body{
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.container {
+    border-radius: 8.28694px;
+    filter:drop-shadow(0px 24.8608px 49.7216px rgba(25, 55, 102, 0.25));
+   
+}
+.col-md-4{
+    width: auto;
+}
+
+
+.hhh{
+    text-align: center;
+    position: relative;
+    width:591px;
+    height:24px;
+    justify-self: center;
+    display: inline;
+}
+.feature h1,h2,h3,h4,h5{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+
+} 
+
+
+/*-------users-------*/
+#users{
+    padding:30px 0;
+
+}
+.text-muted{
+    text-align: center;
+}
+
+.users-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+
+}
+.users-list div{
+    background:#ffff;
+    padding:40px;
+    font-size:13px;
+    font-weight:300;
+    border-radius:10px;
+     transition:background 0.5s ,transform 0.5s;
+}
+
+.users-list div i{
+    font-size:50px;
+    margin-bottom: 30px;
+}
+.users-list div h4{
+    font-size:30px;
+    font-weight:500;
+    margin-bottom: 15px;
+    color: #800080;
+}
+
+.users-list div:hover{
+    background:#800080;
+    transform:translateY(-10px);
+    color: #ffff;
+    
+}
+.users-list h4:hover{
+    color:#ffff;
+}
+
